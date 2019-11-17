@@ -3,6 +3,9 @@
 set -o errrexit
 set -o xtrace
 
+# get standard libraries
+sudo apt-get install -y zip
+
 # get the standard C-compiler
 sudo apt-get install -y gcc
 echo `gcc --version`
